@@ -1,4 +1,16 @@
+/**
+ * My solution for the Minimum Spanning Range problem
+ * @license MIT
+ * @author reyuto
+ */
 
+/**
+ * Minimum Spanning Range
+ * @param {array} TargetRange 
+ * @param {array} SetOfRanges
+ * @param {=debug} debug
+ * @returns {string}
+ */
 function MinimumSpanningRange(TargetRange, SetOfRanges, debug) {
   // simple object to be used as a tree node
   function Node(prev, set) {
