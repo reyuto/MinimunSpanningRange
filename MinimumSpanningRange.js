@@ -6,7 +6,7 @@
 
 /**
  * Minimum Spanning Range
- * @param {array} TargetRange 
+ * @param {array} TargetRange
  * @param {array} SetOfRanges
  * @param {=debug} debug
  * @returns {string}
@@ -99,3 +99,5 @@ function MinimumSpanningRange(TargetRange, SetOfRanges, debug) {
   // print out the result
   return JSON.stringify(result.map(function (node) { return node.set || []; }).reverse());
 }
+
+exports.MinimumSpanningRange = MinimumSpanningRange;
