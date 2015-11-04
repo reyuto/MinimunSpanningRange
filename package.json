@@ -17,8 +17,8 @@
 	},
 	"dependencies"  :
 	{
-		"mocha" 	: ">= 2.3.3",
-		"unit.js" 	: ">= 2.0.0",
-		"require" 	: ">= 2.4.20",
+		"mocha" 	: ">=2.3.3",
+		"unit.js" 	: ">=2.0.0",
+		"require" 	: ">=2.4.20"
 	}
 }
