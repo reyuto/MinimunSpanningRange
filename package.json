@@ -1,0 +1,18 @@
+{
+    "name"          : "minimumspanningrange",
+    "version"       : "1.0.0",
+    "description"   : "An attempt at finding the minimum spanning range problem.",
+    "keywords"      : ["minimum spanning range", "algorithm"],
+    "bugs"          : "https://github.com/reyuto/MinimunSpanningRange/issues",
+    "license"       : "MIT",
+    "main"          : "MinimumSpanningRange.js",
+    "repository"    :
+    {
+        "type"      : "git",
+        "url"       : "https://github.com/reyuto/MinimunSpanningRange.git"
+    },
+    "dependencies"  :
+    {
+
+    }
+}
