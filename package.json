@@ -6,6 +6,7 @@
     "bugs"          : "https://github.com/reyuto/MinimunSpanningRange/issues",
     "license"       : "MIT",
     "main"          : "./MinimumSpanningRange.js",
+    "main"          : "MinimumSpanningRange.js",
     "repository"    :
     {
         "type"      : "git",
