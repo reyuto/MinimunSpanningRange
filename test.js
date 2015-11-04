@@ -1,3 +1,13 @@
+/**
+ * Simple method to test equality
+ * @param {*} left item on equality
+ * @param {*} right item on equality
+ * @param {=comment} comment to display in case of test failure
+ */
+function assertEquals(a, b, comment) { 
+  return a === b ? console.log('test passed') : console.warn(comment || 'Error: Test Failure!',a,b); 
+}
+
 function testMinimumSpanningRange() {
   var Range = [3, 13];
   var Sets = [
